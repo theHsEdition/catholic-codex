@@ -1,4 +1,8 @@
 # Change Log
 Updates and tweaks to the Catholic Codex.
 
-## Version - 0.01
+If you find an issue or have a problem please submit as an issue.
+
+## Version - 0.0.1
+
+- added the site!
