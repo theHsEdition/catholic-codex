@@ -6,7 +6,28 @@
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: #eef;
+    background: $blue;
+    border-radius: 10px;
+    padding: 10px;
+
+    pre {
+      border:none;
+      margin: 0px;
+    }
+    
+    code {
+
+      background: $blue;
+      color: white;
+      font-family: $base-font-family;
+      white-space: pre-wrap;       /* css-3 */
+      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+      
+    }
+
   }
 
   .c     { color: #998; font-style: italic } // Comment

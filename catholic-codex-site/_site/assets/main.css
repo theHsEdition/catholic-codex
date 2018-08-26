@@ -186,7 +186,37 @@ table {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
+  padding-top: 30px;
   position: relative; }
+
+.back-button {
+  padding: 10px;
+  box-shadow: 0px 0px 20px 10px #efefef;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 75px;
+  font-weight: 600;
+  color: #4A90E2;
+  border-radius: 10px;
+  float: left; }
+
+.parent-label {
+  margin: 0px;
+  color: #828282; }
+
+.tag-blue {
+  background-color: #4A90E2;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0px 4px; }
+
+a.u-email {
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 2px;
+  color: #111; }
+  a.u-email:hover {
+    text-decoration: none; }
 
 .header-color {
   height: 300px;
@@ -210,10 +240,11 @@ table {
     display: block;
     color: black;
     padding: 20px 30px;
-    background-color: #cfcfcf;
+    background-color: #e6e6e6;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: 600; }
 
 .site-title {
   font-size: 26px;
@@ -280,8 +311,14 @@ table {
  * Site footer
  */
 .site-footer {
+  border-top: 1px solid #4A90E2;
+  padding: 15px 0; }
+
+.footer-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 15px; }
 
 .footer-heading {
   font-size: 18px;
@@ -392,7 +429,26 @@ table {
 .highlight {
   background: #fff; }
   .highlighter-rouge .highlight {
-    background: #eef; }
+    background: #4A90E2;
+    border-radius: 10px;
+    padding: 10px; }
+    .highlighter-rouge .highlight pre {
+      border: none;
+      margin: 0px; }
+    .highlighter-rouge .highlight code {
+      background: #4A90E2;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      white-space: pre-wrap;
+      /* css-3 */
+      white-space: -moz-pre-wrap;
+      /* Mozilla, since 1999 */
+      white-space: -pre-wrap;
+      /* Opera 4-6 */
+      white-space: -o-pre-wrap;
+      /* Opera 7 */
+      word-wrap: break-word;
+      /* Internet Explorer 5.5+ */ }
   .highlight .c {
     color: #998;
     font-style: italic; }

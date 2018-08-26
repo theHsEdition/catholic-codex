@@ -5,9 +5,44 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-
+  padding-top: 30px;
   // Positioning context for the mobile navigation icon
   position: relative;
+}
+
+.back-button {
+  padding: 10px;
+  box-shadow: 0px 0px 20px 10px #efefef;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 75px;
+  font-weight: 600;
+  color: $blue;
+  border-radius: 10px;
+  float: left;
+}
+
+.parent-label {
+  margin: 0px;
+  color: $grey-color;
+}
+
+.tag-blue {
+  background-color: $blue;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0px 4px;
+}
+
+a.u-email {
+  border-bottom: 1px solid $grey-color-light;
+  padding-bottom: 2px;
+  color: $text-color;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .header-color {
@@ -39,10 +74,11 @@
     display: block;
     color: black;
     padding: 20px 30px;
-    background-color: #cfcfcf;
+    background-color: #e6e6e6;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     text-decoration: none;
+    font-weight: 600;
   }
 }
 
@@ -142,8 +178,15 @@
  * Site footer
  */
 .site-footer {
+  border-top: 1px solid $blue;
+  padding: 15px 0;
+}
+
+.footer-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 15px;
 }
 
 .footer-heading {
