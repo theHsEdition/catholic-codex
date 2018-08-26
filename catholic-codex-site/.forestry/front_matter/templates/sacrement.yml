@@ -3,17 +3,14 @@ label: Sacrement
 hide_body: false
 is_partial: false
 fields:
-- type: datetime
-  label: Date Updated
-  name: date_updated
 - type: text
   name: subtitle
   label: Subtitle
   config:
     required: true
-- type: tag_list
-  name: related_categories
-  label: Related Categories
+- type: datetime
+  label: Date Updated
+  name: date_updated
 - type: textarea
   name: catechism_reference
   label: Catechism Reference
@@ -22,3 +19,6 @@ fields:
 - type: textarea
   name: biblical_reference
   label: Biblical Reference
+- type: tag_list
+  name: related_categories
+  label: Related Categories
