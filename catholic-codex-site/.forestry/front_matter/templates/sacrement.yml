@@ -2,4 +2,7 @@
 label: Sacrement
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: datetime
+  label: Date Updated
+  name: date_updated
