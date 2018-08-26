@@ -1,0 +1,24 @@
+---
+label: Sacrement
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: subtitle
+  label: Subtitle
+  config:
+    required: true
+- type: datetime
+  label: Date Updated
+  name: date_updated
+- type: textarea
+  name: catechism_reference
+  label: Catechism Reference
+  config:
+    required: true
+- type: textarea
+  name: biblical_reference
+  label: Biblical Reference
+- type: tag_list
+  name: related_categories
+  label: Related Categories

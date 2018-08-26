@@ -1,0 +1,12 @@
+---
+label: Article
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  config:
+    source:
+      type: simple
+    required: true
+  label: Parent Category
+  name: parent_category
