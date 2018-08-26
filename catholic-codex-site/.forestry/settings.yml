@@ -10,7 +10,7 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-upload_dir: catholic-codex-site//uploads
+upload_dir: catholic-codex-site/library
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
