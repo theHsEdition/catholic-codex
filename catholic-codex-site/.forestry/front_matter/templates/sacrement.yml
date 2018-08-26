@@ -11,3 +11,6 @@ fields:
   label: Subtitle
   config:
     required: true
+- type: tag_list
+  name: related_categories
+  label: Related Categories
