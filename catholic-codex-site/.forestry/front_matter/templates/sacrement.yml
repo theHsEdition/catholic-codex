@@ -6,3 +6,8 @@ fields:
 - type: datetime
   label: Date Updated
   name: date_updated
+- type: text
+  name: subtitle
+  label: Subtitle
+  config:
+    required: true
