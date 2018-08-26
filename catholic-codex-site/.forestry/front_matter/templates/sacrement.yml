@@ -14,3 +14,8 @@ fields:
 - type: tag_list
   name: related_categories
   label: Related Categories
+- type: textarea
+  name: catechism_reference
+  label: Catechism Reference
+  config:
+    required: true
