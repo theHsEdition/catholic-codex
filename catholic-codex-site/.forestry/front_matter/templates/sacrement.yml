@@ -19,3 +19,6 @@ fields:
   label: Catechism Reference
   config:
     required: true
+- type: textarea
+  name: biblical_reference
+  label: Biblical Reference
